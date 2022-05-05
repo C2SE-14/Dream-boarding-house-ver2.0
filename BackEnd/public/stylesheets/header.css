@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  /*Global style*/
+  li {
+    list-style-type: none;
+  }
+  a {
+    text-decoration: none;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: aliceblue;
+  }
+  nav {
+    width: 70%;
+  }
+  .nav-bar {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+  }
+  .nav-link:hover {
+    color: black;
+  }
